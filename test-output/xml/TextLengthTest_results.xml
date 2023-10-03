@@ -4,19 +4,19 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.013">
+           time="0.014">
     <properties></properties>
 
 
 
             <testcase
                 name="textLengthTest"
-                time="0.000"
+                time="0.001"
                 classname="TextLengthTest">
             </testcase>
             <testcase
                 name="textLengthTest"
-                time="0.002"
+                time="0.001"
                 classname="TextLengthTest">
             </testcase>
             <testcase
@@ -31,7 +31,7 @@
             </testcase>
             <testcase
                 name="textLengthTest"
-                time="0.006"
+                time="0.007"
                 classname="TextLengthTest">
             </testcase>
             <testcase
