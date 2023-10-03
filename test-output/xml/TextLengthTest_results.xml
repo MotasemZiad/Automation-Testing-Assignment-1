@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirstTest"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.013">
+    <properties></properties>
+
+
+
+            <testcase
+                name="textLengthTest"
+                time="0.000"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.002"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.006"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+</testsuite>

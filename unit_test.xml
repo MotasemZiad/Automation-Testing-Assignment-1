@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Text Length Test Suite">
-    <test name="First Test">
+<suite name="Text Length Test Suite" parallel="true">
+    <test name="FirstTest">
         <classes>
-            <class name="TextLengthTest"></class>
+            <class name="TextLengthTest" />
         </classes>
     </test>
+    <test name="SecondTest">
+        <classes>
+            <class name="AnnotationTest" />
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+    </listeners>
 </suite>

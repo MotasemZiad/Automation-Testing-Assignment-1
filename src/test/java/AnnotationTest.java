@@ -1,5 +1,6 @@
 import org.testng.Assert;
 import org.testng.ITestResult;
+import org.testng.SkipException;
 import org.testng.annotations.*;
 
 public class AnnotationTest {
@@ -61,16 +62,90 @@ public class AnnotationTest {
 
     @Test(priority = 2)
     public void test2() {
-        Assert.assertTrue(true);
+        Assert.assertTrue(false);
     }
 
     @Test(priority = 3)
     public void test3() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 4)
+    public void test4() {
+        Assert.assertTrue(true);
+    }
+
+    @Test(priority = 1)
+    public void test5() {
+        Assert.assertTrue(true);
+    }
+
+    @Test(priority = 2)
+    public void test6() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 3)
+    public void test7() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 4)
+    public void test8() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 1)
+    public void test9() {
+        Assert.assertTrue(true);
+    }
+
+    @Test(priority = 2)
+    public void test10() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 3)
+    public void test11() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 4)
+    public void test12() {
+        Assert.assertTrue(false);
+    }
+    @Test(priority = 4)
+    public void test13() {
+        Assert.assertTrue(false);
+    }
+
+    @Test(priority = 1)
+    public void test14() {
+        Assert.assertTrue(true);
+    }
+
+    @Test(priority = 1)
+    public void test15() {
         Assert.assertTrue(true);
     }
 
     @Test
     public void testRandom() {
-        Assert.assertTrue(true);
+        throw new SkipException("I want to skip this unit test");
+    }
+
+    @Test
+    public void testRandom1() {
+        throw new SkipException("I want to skip this unit test");
+    }
+
+    @Test
+    public void testRandom2() {
+        throw new SkipException("I want to skip this unit test");
+    }
+
+    @Test
+    public void testRandom3() {
+        throw new SkipException("I want to skip this unit test");
     }
 }
