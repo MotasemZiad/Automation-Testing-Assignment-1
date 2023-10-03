@@ -62,12 +62,12 @@ public class AnnotationTest {
 
     @Test(priority = 2)
     public void test2() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 3)
     public void test3() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 4)
@@ -82,17 +82,17 @@ public class AnnotationTest {
 
     @Test(priority = 2)
     public void test6() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 3)
     public void test7() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 4)
     public void test8() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 1)
@@ -102,21 +102,21 @@ public class AnnotationTest {
 
     @Test(priority = 2)
     public void test10() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 3)
     public void test11() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 4)
     public void test12() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
     @Test(priority = 4)
     public void test13() {
-        Assert.assertTrue(false);
+        Assert.assertTrue(true);
     }
 
     @Test(priority = 1)

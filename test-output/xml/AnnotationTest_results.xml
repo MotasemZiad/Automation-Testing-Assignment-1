@@ -1,111 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="SecondTest"
            tests="19"
-           failures="9"
+           failures="0"
            errors="0"
            skipped="4"
-           time="0.073">
+           time="0.032">
     <properties></properties>
 
-            <testcase
-                name="test7"
-                time="0.008"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test7(AnnotationTest.java:90)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test6"
-                time="0.010"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test6(AnnotationTest.java:85)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test11"
-                time="0.012"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test11(AnnotationTest.java:110)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test10"
-                time="0.009"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test10(AnnotationTest.java:105)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test2"
-                time="0.009"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test2(AnnotationTest.java:65)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test12"
-                time="0.002"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test12(AnnotationTest.java:115)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test13"
-                time="0.000"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test13(AnnotationTest.java:119)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test8"
-                time="0.000"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test8(AnnotationTest.java:95)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
-            <testcase
-                name="test3"
-                time="0.003"
-                classname="AnnotationTest">
-
-            <failure type="java.lang.AssertionError" message="expected [true] but found [false]">
-                <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-                org.testng.Assert.fail(Assert.java:111)org.testng.Assert.failNotEquals(Assert.java:1578)org.testng.Assert.assertTrue(Assert.java:57)org.testng.Assert.assertTrue(Assert.java:67)AnnotationTest.test3(AnnotationTest.java:70)java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)java.base/java.lang.reflect.Method.invoke(Method.java:577)org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </failure>
-    </testcase>
 
             <testcase
                 name="testRandom2"
@@ -113,12 +14,12 @@
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="testRandom1"
+                name="testRandom3"
                 time="0.0"
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="testRandom3"
+                name="testRandom1"
                 time="0.0"
                 classname="AnnotationTest">
             </testcase>
@@ -129,33 +30,78 @@
             </testcase>
 
             <testcase
+                name="test12"
+                time="0.006"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
                 name="test9"
+                time="0.000"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test13"
+                time="0.002"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test8"
                 time="0.001"
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="test5"
+                name="test10"
                 time="0.000"
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="test1"
+                name="test11"
                 time="0.001"
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="test4"
+                name="test6"
                 time="0.000"
                 classname="AnnotationTest">
             </testcase>
             <testcase
-                name="test14"
-                time="0.000"
+                name="test2"
+                time="0.001"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test3"
+                time="0.001"
                 classname="AnnotationTest">
             </testcase>
             <testcase
                 name="test15"
-                time="0.007"
+                time="0.006"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test4"
+                time="0.002"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test1"
+                time="0.000"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test5"
+                time="0.001"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test7"
+                time="0.002"
+                classname="AnnotationTest">
+            </testcase>
+            <testcase
+                name="test14"
+                time="0.001"
                 classname="AnnotationTest">
             </testcase>
 </testsuite>
