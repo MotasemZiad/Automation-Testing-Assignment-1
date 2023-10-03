@@ -4,7 +4,7 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.014">
+           time="0.011">
     <properties></properties>
 
 
@@ -21,12 +21,7 @@
             </testcase>
             <testcase
                 name="textLengthTest"
-                time="0.001"
-                classname="TextLengthTest">
-            </testcase>
-            <testcase
-                name="textLengthTest"
-                time="0.001"
+                time="0.000"
                 classname="TextLengthTest">
             </testcase>
             <testcase
@@ -41,12 +36,17 @@
             </testcase>
             <testcase
                 name="textLengthTest"
-                time="0.001"
+                time="0.000"
                 classname="TextLengthTest">
             </testcase>
             <testcase
                 name="textLengthTest"
                 time="0.001"
+                classname="TextLengthTest">
+            </testcase>
+            <testcase
+                name="textLengthTest"
+                time="0.000"
                 classname="TextLengthTest">
             </testcase>
 </testsuite>
