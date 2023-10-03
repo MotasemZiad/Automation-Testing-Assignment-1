@@ -6,5 +6,5 @@ A Java Application with Maven Project to try unit testing.
 2. [ReportNG](https://mvnrepository.com/artifact/org.uncommons/reportng):  ReportNG is a simple HTML reporting plug-in for the TestNG unit-testing framework.
 
 # Reports
-![Screenshot from 2023-10-03 12-32-19](https://github.com/MotasemZiad/Automation-Testing-Assignment-1/assets/52855540/eee50361-34bc-417d-84e5-615b1c11fbe3)
 ![Screenshot from 2023-10-03 12-32-41](https://github.com/MotasemZiad/Automation-Testing-Assignment-1/assets/52855540/788b3215-f912-479b-8037-4eeece414339)
+![Screenshot from 2023-10-03 12-32-19](https://github.com/MotasemZiad/Automation-Testing-Assignment-1/assets/52855540/eee50361-34bc-417d-84e5-615b1c11fbe3)
