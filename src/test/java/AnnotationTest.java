@@ -114,6 +114,7 @@ public class AnnotationTest {
     public void test12() {
         Assert.assertTrue(true);
     }
+
     @Test(priority = 4)
     public void test13() {
         Assert.assertTrue(true);

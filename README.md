@@ -1,5 +1,5 @@
 # PITA Unit Testing
-A Java Application with Maven Project to try unit testing.
+A Java with Maven Project to work with unit testing.
 
 # Dependencies
 1. [TestNG](https://mvnrepository.com/artifact/org.testng/testng): TestNG is a testing framework inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use. It supports test configured by annotations, data-driven testing, parametric tests, etc.
